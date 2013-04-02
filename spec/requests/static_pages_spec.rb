@@ -2,7 +2,11 @@ require 'spec_helper'
 
 describe "Static pages" do
 
-  # let(:base_title) { "Ruby on Rails Tutorial Sample App" }
+=begin
+  # Replaced by the full_title method
+  let(:base_title) { "Ruby on Rails Tutorial Sample App" }
+=end
+
   subject { page }
 
   shared_examples_for "All static pages" do
